@@ -18,6 +18,7 @@ D flip-flop operates with only positive clock transitions or negative clock tran
 
 This circuit has single input D and two outputs Qtt & Qtt’. The operation of D flip-flop is similar to D Latch. But, this flip-flop affects the outputs only when positive transition of the clock signal is applied instead of active enable. The following table shows the state table of D flip-flop.
 
+
 ![image](https://github.com/naavaneetha/D-FLIPDLOP-NEGEDGE/assets/154305477/e5f3fda7-68ec-4a3a-a0a4-cf6f9cc4ab55)
 
 Therefore, D flip-flop always Hold the information, which is available on data input, D of earlier positive transition of clock signal. From the above state table, we can directly write the next state equation as Qt+1t+1 = D
@@ -28,7 +29,15 @@ Next state of D flip-flop is always equal to data input, D for every positive tr
 
 **Procedure**
 
-/* write all the steps invloved */
+1.Type the program in Quartus software.
+
+2.Compile and run the program.
+
+3.Generate the RTL schematic and save the logic diagram.
+
+4.Create nodes for inputs and outputs to generate the timing diagram.
+
+5.For different input combinations generate the timing diagram.
 
 **PROGRAM**
 
@@ -55,7 +64,8 @@ endmodule
 ![Screenshot (70)](https://github.com/ADARSH778/D-FLIPDLOP-NEGEDGE/assets/149347361/baf2fc99-f916-4095-a3ff-9b6c58483cf0)
 
 **TIMING DIGRAMS FOR FLIP FLOPS**
-![Screenshot (69)](https://github.com/ADARSH778/D-FLIPDLOP-NEGEDGE/assets/149347361/e790eb67-dbcc-411b-a8ac-fe58b74388fb)
+![image](https://github.com/ADARSH778/D-FLIPDLOP-NEGEDGE/assets/149347361/d1582f0c-35b7-48c1-866c-438d42d2a52d)
+
 
 
 **RESULTS**
